@@ -2,10 +2,10 @@ namespace DOTNET_ConsoleApplication_Optional;
 
 public class Student
 {
-    private string firstName { get; set; }
-    private string lastName { get; set; }
-    
-    private List<Subject> Subjects { get; set; }
+    public string firstName { get; set; }
+    public string lastName { get; set; }
+
+    public List<Subject> Subjects { get; set; }
 
     public Student(string firstName, string lastName)
     {
